@@ -13,16 +13,16 @@
   }
   .container {
     padding: 70px;
-    margin-inline: 200px ;
-    margin-top: 250px;
-    margin-bottom: 250px;
+    margin-inline: 100px ;
+    margin-top: 150px;
+    margin-bottom: 150px;
     background-color: rgb(255, 255, 255);  
   }
   .profile-picture{
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    margin-inline: 320px ;
+    margin-inline: 420px ;
     
   }
   .social-icon{
@@ -35,7 +35,7 @@
   .name{
     display: center;
     position: relative;
-    padding-inline-start: 25%;
+    padding-inline-start: 30%;
     padding-inline-end: 5%;
     font-family: Gasalt-Black;
   }
@@ -50,7 +50,7 @@
     text-decoration: none;
     border-radius: 100px;
     position: relative;
-    margin-left: 30%;
+    margin-left: 34%;
     height: 10px;
     margin-top: 20px;
   }
