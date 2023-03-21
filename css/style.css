@@ -46,7 +46,7 @@
   }
   .social-link {
     display: inline-block;
-    padding: 8px;
+    padding: 7px;
     text-decoration: none;
     border-radius: 100px;
     position: relative;
@@ -67,9 +67,9 @@
   .social-text {
     position:absolute;
     text-align: justify;
-    top: 12px;
+    top: 13px;
     transform: translateY(-50%);
-    left: 50px;
+    left: 45px;
     font-family: Gasalt-Thin;
   }
   .social-link:hover {
@@ -77,10 +77,6 @@
     color: #ffffff;
     border: 0px solid #4267B2;
   }
-  /* .social-link:hover .social-icon {
-    filter: grayscale(100%);
-  } */
-  
   .social-link:hover .social-text {
     color: #ffffff;
   }
