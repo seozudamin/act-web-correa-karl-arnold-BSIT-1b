@@ -1,0 +1,86 @@
+@font-face {
+    font-family: Gasalt-Black;
+    src: url(fonts/Gasalt-Black.ttf);
+    font-family: Gasalt-Thin;
+    src: url(fonts/Gasalt-Thin.ttf);
+    font-family: Gasalt-Regular;
+    src: url(fonts/Gasalt-Regular.ttf);
+  }
+  
+  body{
+      background-color: rgb(206, 206, 206);
+      font-family: Gasalt-Thin;
+  }
+  .container {
+    padding: 70px;
+    margin-inline: 200px ;
+    margin-top: 250px;
+    margin-bottom: 250px;
+    background-color: rgb(255, 255, 255);  
+  }
+  .profile-picture{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-inline: 320px ;
+    
+  }
+  .social-icon{
+    display: flex;
+    position: relative;
+    width: 30px;
+    height: 30px; 
+    padding-inline-start: 0px;
+  }
+  .name{
+    display: center;
+    position: relative;
+    padding-inline-start: 25%;
+    padding-inline-end: 5%;
+    font-family: Gasalt-Black;
+  }
+  .bio{
+    margin-inline: 0px ;
+    text-align: center;
+    font-family: Gasalt-Thin;
+  }
+  .social-link {
+    display: inline-block;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 100px;
+    position: relative;
+    margin-left: 30%;
+    height: 10px;
+    margin-top: 20px;
+  }
+  .social-icon{
+    width: 25px;
+    height: 26px;
+    border-radius: 25%;
+    margin-right: 250px;
+    transform: translateY(-50%);
+    margin-top: 5px;
+    text-align:left;
+    margin-left: 10px;
+  }
+  .social-text {
+    position:absolute;
+    text-align: justify;
+    top: 12px;
+    transform: translateY(-50%);
+    left: 50px;
+    font-family: Gasalt-Thin;
+  }
+  .social-link:hover {
+    background-color: #4267B2;
+    color: #ffffff;
+    border: 0px solid #4267B2;
+  }
+  /* .social-link:hover .social-icon {
+    filter: grayscale(100%);
+  } */
+  
+  .social-link:hover .social-text {
+    color: #ffffff;
+  }
