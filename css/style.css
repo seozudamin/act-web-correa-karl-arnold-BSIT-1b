@@ -77,10 +77,6 @@
     color: #ffffff;
     border: 0px solid #4267B2;
   }
-  /* .social-link:hover .social-icon {
-    filter: grayscale(100%);
-  } */
-  
   .social-link:hover .social-text {
     color: #ffffff;
   }
